@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <article>
+            <h1>Регистрация</h1>
+        </article>
+    </header>
+    <main>
+        <div>
+            <label for="input_name">Имя</label>
+            <input type="text" name="name" required id="input_name">
+        </div>
+        <div>
+            <label for="input_lastname">Фамилия</label>
+            <input type="text" name="lastname" required id="input_lastname">
+        </div>
+        <div>
+            <label for="input_age">Возраст</label>
+            <input type="number" name="age" required min="1" id="input_age">
+        </div>
+        <div>
+            <label for="combobox_m_f"></label>
+            <select name="m_f" required id="combobox_m_f">
+                <option value="M">Муж</option>
+                <option value="F">Жен</option>
+            </select>            
+        </div>
+        <div>
+            <label for="input_tel">Номер телефона</label>
+            <input type="text" name="tel" placeholder="+380000000000" id="input_tel">
+        </div>
+        <div>
+            <label for="input_email">Почта</label>
+            <input type="text" name="email" placeholder="ivanov@gmail.com" id="input_tel">
+        </div>
+        <div>
+            <label for="city">Город</label>    
+            <input type="text" name="city">       
+        </div>
+       
+        <button type="reset"></a>Закрыть</button>
+        <button type="submit">Зарегистрироваться</button>
+    
+    </main>
+    
+</body>
+</html>
