@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>Магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body class="page">
+    <header class="header page__header">
+        <div class="header__container">
+            <img class="header__logo" src="media/logo.svg"  alt="StopCovid19">
+            <div class="header__search">
+                <div class="search__block">
+                    <input class="search__input" type="search" placeholder="Я ищу...">
+                    <button class="search__btn" type="submit">Поиск</button>
+                </div>
+            </div>
+             
+            <div class="header__navbar header-menu">
+                <div class="navbar__item item-account">
+                    <a  href="account.html" class="navbar__link">
+                        <span class="material-icons-outlined navbar__icon">
+                            account_circle
+                            </span>
+                    </a>
+                </div>
+                <div class="navbar__item item-basket">
+                    <a  href="" class="navbar__link">
+                        <span class="material-icons-outlined navbar__icon">
+                            local_mall
+                            </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main page__main">
+        <div class="main__menu">
+            <ul class="main__menu-list">
+                <li class="main__menu-list-item">
+                    <a href="" class="main__menu-list-link">Маски</a>
+                </li>
+                <li class="main__menu-list-item">
+                    <a href="" class="main__menu-list-link">Антисептики</a>
+                </li>
+                <li class="main__menu-list-item">
+                    <a href="" class="main__menu-list-link">Респираторы</a>
+                </li>
+            </ul>
+        </div>
+        <div class="account-form__wrapper">
+            <p class="account-form__header">
+                Регистрация
+            </p>
+            <div class="account-form__field">
+                <span class="Textinput">
+                    <label for="lastname" class="account-form__label">Фамилия</label>
+                    <input type="text" id="lastname" name="lastname" >
+                </span>
+                
+            </div>
+            <div class="account-form__field">
+                <span class="Textinput">
+                    <label for="name" class="account-form__label">Имя</label>
+                    <input type="text" id="name" name="name">
+                </span>
+               
+            </div>
+            <div class="account-form__field">
+                <span class="Textinput">
+                    <label for="phone-number" class="account-form__label">Номер телефона</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="+38-" data-link="">
+                </span> 
+            </div>
+            <div class="account-form__field">
+                <span class="Textinput">
+                    <label for="city" class="account-form__label">Город</label>
+                    <input type="text" id="name" name="city">
+                </span>
+               
+            </div>
+            <div class="account-form__submit">
+                <button type="submit">Готово</button>
+            </div>
+       
+
+    </main>
+
+    <footer class="footer page__footer">
+        <div class="footer__nav">
+            <div class="footer__list-wrap"> 
+                <p class="footer__header">Контакты</p>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <p>+380960000000</p>
+                    </li>
+                    <li class="footer__item">
+                        <p>Stop_covid19@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+      
+    </footer>
+        
+    
+</body>
+</html>
